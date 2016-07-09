@@ -1,0 +1,121 @@
+D [2016-07-09 21:48:15.746] @AutoItExe: C:\Program Files (x86)\AutoIt3\AutoIt3.exe
+D [2016-07-09 21:48:15.746] @ScriptFullPath: C:\Users\TOSHIBA\Documents\Roro-Titi\MyBot.run.au3
+D [2016-07-09 21:48:15.746] @WorkingDir: C:\Users\TOSHIBA\Documents\Roro-Titi
+D [2016-07-09 21:48:15.756] @AutoItPID: 2116
+D [2016-07-09 21:48:15.806] DetectRunningAndroid()
+D [2016-07-09 21:48:15.807] UpdateAndroidConfig("MEmu")
+D [2016-07-09 21:48:15.807] InitAndroid(False): MEmu
+L [2016-07-09 21:48:15.809] Serious error has occurred: Cannot find MEmu:
+L [2016-07-09 21:48:15.810] C:\Program Files (x86)\Microvirt\MEmu\MEmu.exe
+D [2016-07-09 21:48:15.811] InitAndroid(False): MEmu END, initialization successful = False
+D [2016-07-09 21:48:15.811] UpdateAndroidConfig("MEmu") END
+D [2016-07-09 21:48:15.812] UpdateAndroidConfig("droid4x")
+D [2016-07-09 21:48:15.812] InitAndroid(False): Droid4X
+L [2016-07-09 21:48:15.814] Serious error has occurred: Cannot find Droid4X:
+L [2016-07-09 21:48:15.814] C:\Program Files (x86)\Droid4X\Droid4X.exe
+D [2016-07-09 21:48:15.815] InitAndroid(False): Droid4X END, initialization successful = False
+D [2016-07-09 21:48:15.815] UpdateAndroidConfig("droid4x") END
+D [2016-07-09 21:48:15.815] UpdateAndroidConfig("nox")
+D [2016-07-09 21:48:15.816] InitAndroid(False): Nox
+L [2016-07-09 21:48:15.816] Serious error has occurred: Cannot find Nox file:
+L [2016-07-09 21:48:15.816] Nox.exe
+D [2016-07-09 21:48:15.816] InitAndroid(False): Nox END, initialization successful = False
+D [2016-07-09 21:48:15.816] UpdateAndroidConfig("nox") END
+D [2016-07-09 21:48:15.816] UpdateAndroidConfig("")
+D [2016-07-09 21:48:15.816] InitAndroid(False): BlueStacks2
+D [2016-07-09 21:48:15.816] BlueStacks2 Engine 'Plus'-Mode: False
+D [2016-07-09 21:48:15.816] BlueStacks2 OEM Features: 
+D [2016-07-09 21:48:15.816] BlueStacks2 System Bar is not available
+D [2016-07-09 21:48:15.816] Searching BlueStacks2 Window: Title = 'BlueStacks ', Class = '[CLASS:BlueStacksApp; INSTANCE:1]', Text = '_ctl.Window'
+D [2016-07-09 21:48:15.816] BlueStacks2 Window title 'BlueStacks App Player' not matching 'BlueStacks ' or control
+D [2016-07-09 21:48:15.816] Found 1 possible BlueStacks2 windows by title 'BlueStacks ':
+D [2016-07-09 21:48:15.816] 0x00011AF8: BlueStacks App Player
+D [2016-07-09 21:48:15.826] ObjGet("winmgmts:\\.\root\cimv2")
+D [2016-07-09 21:48:15.826] WMI Query: Select * from Win32_Process where ExecutablePath like "%C:\\Program Files (x86)\\BlueStacks\\HD-Frontend.exe%"
+D [2016-07-09 21:48:15.916] 4188 = C:\Program Files (x86)\BlueStacks\HD-Frontend.exe ("C:\Program Files (x86)\BlueStacks\HD-Frontend.exe" Android)
+D [2016-07-09 21:48:15.916] Found Process 4188 by CommandLine: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android
+D [2016-07-09 21:48:15.916] Found BlueStacks2 Window 'BlueStacks App Player' (0x00011AF8) by PID 4188 ('C:\Program Files (x86)\BlueStacks\HD-Frontend.exe Android')
+L [2016-07-09 21:48:15.916] BlueStacks supported version 2 not found
+D [2016-07-09 21:48:15.916] InitAndroid(False): BlueStacks2 END, initialization successful = False
+D [2016-07-09 21:48:15.916] UpdateAndroidConfig("") END
+D [2016-07-09 21:48:15.916] UpdateAndroidConfig("")
+D [2016-07-09 21:48:15.916] InitAndroid(False): BlueStacks
+D [2016-07-09 21:48:15.916] BlueStacks Engine 'Plus'-Mode: False
+D [2016-07-09 21:48:15.916] BlueStacks OEM Features: 
+D [2016-07-09 21:48:15.916] BlueStacks System Bar is not available
+D [2016-07-09 21:48:15.916] Android: BlueStacks
+D [2016-07-09 21:48:15.926] Android Config: 4
+D [2016-07-09 21:48:15.926] Android Version: 0.9.24.5311
+D [2016-07-09 21:48:15.926] Android Instance: 
+D [2016-07-09 21:48:15.926] Android Window Title: BlueStacks App Player
+D [2016-07-09 21:48:15.926] Android Program Path: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe
+D [2016-07-09 21:48:15.926] Android Program Parameter: Android
+D [2016-07-09 21:48:15.926] Android ADB Path: C:\Program Files (x86)\BlueStacks\HD-Adb.exe
+D [2016-07-09 21:48:15.926] Android ADB Device: emulator-5554
+D [2016-07-09 21:48:15.926] Android ADB Shared Folder: /storage/sdcard/windows/BstSharedFolder/
+D [2016-07-09 21:48:15.926] Android ADB Shared Folder on Host: C:\ProgramData\BlueStacks\UserData\SharedFolder\
+D [2016-07-09 21:48:15.926] Android ADB Shared SubFolder: mybot.run\
+D [2016-07-09 21:48:15.926] Android Mouse Device: BlueStacks Virtual Touch
+D [2016-07-09 21:48:15.926] Android ADB screencap command enabled: False
+D [2016-07-09 21:48:15.926] Android ADB input command enabled: True
+D [2016-07-09 21:48:15.926] Android ADB Mouse Click enabled: False
+D [2016-07-09 21:48:15.926] Android ADB Click Drag enabled: False
+D [2016-07-09 21:48:15.926] InitAndroid(False): BlueStacks END, initialization successful = True
+D [2016-07-09 21:48:15.926] UpdateAndroidConfig("") END
+D [2016-07-09 21:48:15.926] InitAndroid(False): BlueStacks
+D [2016-07-09 21:48:15.926] BlueStacks Engine 'Plus'-Mode: False
+D [2016-07-09 21:48:15.926] BlueStacks OEM Features: 
+D [2016-07-09 21:48:15.926] BlueStacks System Bar is available
+D [2016-07-09 21:48:15.926] Android: BlueStacks
+D [2016-07-09 21:48:15.926] Android Config: 4
+D [2016-07-09 21:48:15.926] Android Version: 0.9.24.5311
+D [2016-07-09 21:48:15.926] Android Instance: 
+D [2016-07-09 21:48:15.936] Android Window Title: BlueStacks App Player
+D [2016-07-09 21:48:15.936] Android Program Path: C:\Program Files (x86)\BlueStacks\HD-Frontend.exe
+D [2016-07-09 21:48:15.936] Android Program Parameter: Android
+D [2016-07-09 21:48:15.936] Android ADB Path: C:\Program Files (x86)\BlueStacks\HD-Adb.exe
+D [2016-07-09 21:48:15.936] Android ADB Device: emulator-5554
+D [2016-07-09 21:48:15.936] Android ADB Shared Folder: /storage/sdcard/windows/BstSharedFolder/
+D [2016-07-09 21:48:15.936] Android ADB Shared Folder on Host: C:\ProgramData\BlueStacks\UserData\SharedFolder\
+D [2016-07-09 21:48:15.936] Android ADB Shared SubFolder: mybot.run\
+D [2016-07-09 21:48:15.936] Android Mouse Device: BlueStacks Virtual Touch
+D [2016-07-09 21:48:15.936] Android ADB screencap command enabled: False
+D [2016-07-09 21:48:15.936] Android ADB input command enabled: True
+D [2016-07-09 21:48:15.936] Android ADB Mouse Click enabled: False
+D [2016-07-09 21:48:15.936] Android ADB Click Drag enabled: False
+D [2016-07-09 21:48:15.936] InitAndroid(False): BlueStacks END, initialization successful = True
+D [2016-07-09 21:48:15.936] Found running BlueStacks 0.9.24.5311
+D [2016-07-09 21:48:15.946] My Bot is the only running instance
+D [2016-07-09 21:48:19.324] Read Building Config C:\Users\TOSHIBA\Documents\Roro-Titi\Profiles\MyVillage\building.ini
+D [2016-07-09 21:48:19.334] Read Config C:\Users\TOSHIBA\Documents\Roro-Titi\Profiles\MyVillage\config.ini
+D [2016-07-09 21:48:19.428] Apply Config
+D [2016-07-09 21:48:19.554] Redraw MyBot Window
+L [2016-07-09 21:48:22.465] Found running BlueStacks 0.9.24.5311
+L [2016-07-09 21:48:22.475] Android Emulator Configuration: BlueStacks
+L [2016-07-09 21:48:22.475]  Warning!! Display size smaller than recommended = 1366x768 +
+L [2016-07-09 21:48:22.485] +++ MBR will attempt to auto adjust Emulator size +++
+L [2016-07-09 21:48:22.485] ++++ Make sure task bar isn't covering Emulator +++++
+L [2016-07-09 21:48:22.495] ++++++ Search MyBot.run forums if any problems ++++++
+L [2016-07-09 21:48:22.495] +++++++++++ Click "Start Bot" to proceed ++++++++++++
+L [2016-07-09 21:48:22.505]  
+L [2016-07-09 21:48:23.660] WELCOME CHIEF, YOU HAVE THE LATEST VERSION OF THE BOT
+L [2016-07-09 21:48:23.665]  
+L [2016-07-09 21:48:23.669] Fully working with May update
+L [2016-07-09 21:48:23.669] New GUI and lots of new features
+L [2016-07-09 21:48:23.679] For more information, go to 
+L [2016-07-09 21:48:23.689] https://mybot.run
+L [2016-07-09 21:48:23.739] 
+L [2016-07-09 21:48:23.739]  Always free and open source.
+L [2016-07-09 21:48:23.749]  
+L [2016-07-09 21:48:23.754] ================================================
+L [2016-07-09 21:48:23.760]  
+L [2016-07-09 21:48:23.762]           Welcome to the RoroTiti & Moebius14's MOD v0.4 !
+L [2016-07-09 21:48:23.772]  
+L [2016-07-09 21:48:23.772] ================================================
+L [2016-07-09 21:48:23.782]  
+D [2016-07-09 21:48:23.782] MyBot.run launch time 8049 ms.
+L [2016-07-09 21:48:23.782] Number of active CoC accounts is: 3 account(s).
+L [2016-07-09 21:48:23.792] Account botting order is: 1|2|1
+L [2016-07-09 21:49:15.818] Closing My Bot v6.1.4 RoroTiti and Moebius14 MOD v0.4 (BlueStacks) ...
+D [2016-07-09 21:49:15.833] Save Config C:\Users\TOSHIBA\Documents\Roro-Titi\Profiles\MyVillage\config.ini
+D [2016-07-09 21:49:18.192] Save Building Config C:\Users\TOSHIBA\Documents\Roro-Titi\Profiles\MyVillage\building.ini
